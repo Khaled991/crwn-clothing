@@ -38,7 +38,14 @@ class Directory extends Component {
           size: 'large',
           id: 5,
           linkUrl: 'shop/mens'
-        }
+        },
+        // {
+        //   title: 'accessories',
+        //   imageUrl: 'https://freedesignfile.com/upload/2017/06/Fashion-summer-women-and-cosmetics-and-accessories-HD-picture-01.jpg',
+        //   size: 'large',
+        //   id: 6,
+        //   linkUrl: 'shop/accessories'
+        // },      
       ]
     }
   }
@@ -46,8 +53,8 @@ class Directory extends Component {
     return (
     <div className="directory-menu">
       {
-      this.state.sections.map(({title,id,imageUrl,size})=>(
-        <MenuItme key={id} title={title} imageUrl={imageUrl} size={size}/>
+      this.state.sections.map(({id,...props})=>(
+        <MenuItme key={id} {...props}/>
       ))
       }
       </div>
