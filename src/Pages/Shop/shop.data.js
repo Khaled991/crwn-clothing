@@ -280,6 +280,54 @@ const SHOP_DATA = [
         price: 25
       }
     ]
+  },
+  {
+    id: 6,
+    title: 'accessories',
+    routeName: 'accessories',
+    items: [
+      {
+        id: 36,
+        name: 'Watches',
+        imageUrl: 'https://ae01.alicdn.com/kf/HTB14H.AXjDuK1RjSszdq6xGLpXaK/Men-Watches-New-ORLANDO-Fashion-Quartz-Watch-Men-s-Silver-Gold-Plated-Stainless-Steel-Wristwatch-Masculino.jpg_q50.jpg',
+        price: 325
+      },
+      {
+        id: 37,
+        name: 'Necklaces',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0624/2261/products/Trust_the_flow_necklace_Model_500x.jpg?v=1570318086',
+        // imageUrl: "/images/shop-img/mens/floral-shirt.png",
+        price: 20
+      },
+      {
+        id: 38,
+        name: 'Wallets',
+        imageUrl: 'https://www.giftsaustralia.com.au/assets/full/7064001.jpg?20180720142607',
+        // imageUrl: "/images/shop-img/mens/long-sleeve.png",
+        price: 25
+      },
+      {
+        id: 39,
+        name: 'Backpacks',
+        imageUrl: 'https://porterbello.co.uk/wp-content/uploads/2015/11/MG_3608-as01a800b.jpg',
+        // imageUrl: "/images/shop-img/mens/pink-shirt.png",
+        price: 25
+      },
+      {
+        id: 40,
+        name: 'Belts',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/1544/6675/products/Mens_Black_Formal_Designer_Leather_Belt_Chrome_Style_800x.jpg?v=1518631296',
+        // imageUrl: "/images/shop-img/mens/roll-up-jean-shirt.png",
+        price: 40
+      },
+      {
+        id: 41,
+        name: 'Rings',
+        imageUrl: 'https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ia9ENbfd.Qe0/v1/-1x-1.jpg',
+        // imageUrl: "/images/shop-img/mens/polka-dot-shirt.png",
+        price: 25
+      }
+    ]
   }
 ];
 

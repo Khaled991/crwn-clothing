@@ -39,13 +39,13 @@ class Directory extends Component {
           id: 5,
           linkUrl: 'shop/mens'
         },
-        // {
-        //   title: 'accessories',
-        //   imageUrl: 'https://freedesignfile.com/upload/2017/06/Fashion-summer-women-and-cosmetics-and-accessories-HD-picture-01.jpg',
-        //   size: 'large',
-        //   id: 6,
-        //   linkUrl: 'shop/accessories'
-        // },      
+        {
+          title: 'accessories',
+          imageUrl: 'https://freedesignfile.com/upload/2017/06/Fashion-summer-women-and-cosmetics-and-accessories-HD-picture-01.jpg',
+          size: 'large',
+          id: 6,
+          linkUrl: 'shop/accessories'
+        },      
       ]
     }
   }
