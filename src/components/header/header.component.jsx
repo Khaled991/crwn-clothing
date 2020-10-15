@@ -18,9 +18,9 @@ function Header({ currentUser }) {
           CONTACT
         </Link>
         {currentUser ? (
-          <dive className="option" onClick={() => auth.signOut()}>
+          <div className="option" onClick={() => auth.signOut()}>
             SIGN OUT
-          </dive>
+          </div>
         ) : (
           <Link className="option" to="/signin">
             SIGN IN
